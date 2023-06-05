@@ -1,0 +1,134 @@
+.card{
+    position: absolute;
+    width: 1260px;
+    height: 90vh;
+    left: 61px;
+    top: 34px;
+    background: #FFE5CA;
+    border-radius: 34.7304px;
+    z-index: -1;
+}
+
+.top_left{
+    position: absolute;
+    width: 125px;
+    height: 81px;
+    left: 23px;
+    top: 0px;
+}
+.top_left p{
+    position: absolute;
+    width: 58px;
+    height: 33px;
+    left: 67px;
+    top: 55px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    /* identical to box height */
+    padding-left: 35px;
+    color: rgba(182, 57, 57, 0.63);
+}
+.top_right{
+    position: absolute;
+    width: 445px;
+    height: 47px;
+    left: 781px;
+    top: 33px;
+
+}
+.top_right pre a{
+    text-decoration: none;
+    width: 359px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    color: #878DA3;
+    
+}
+.top_right pre a:hover{
+    color: #000000;
+}
+
+.middle{
+    position: absolute;
+    width: 562px;
+    height: 204px;
+    left: 120px;
+    top: 120px;
+}
+.middle h1{
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81px;
+    line-height: 90px;
+    color: #000000;
+}
+
+.middle p{
+    position: absolute;
+    width: 449px;
+    height: 109px;
+    left: 8px;
+    top: 285px;
+
+    font-family: 'Habibi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #00347A;
+}
+.buttom{
+    border: none;
+    background: #ea7d61;
+    position: absolute;
+    cursor: pointer;
+    width: 260px;
+    height: 65px;
+    left: 120px;
+    top: 600px;
+    border-radius: 42px;
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.3));
+    transition: all 500ms ease; 
+}
+.buttom:hover{
+    transform: scale(1.1);
+}
+.buttom p{
+    position: absolute;
+    left: 45px;
+    top: -12px;
+    font-family: 'Bokor';
+    font-size: 25px;
+    color: #000000;
+}
+.image{
+    position: absolute;
+    width: 792px;
+    height: 612px;
+    left: 700px;
+    top: 270px;
+}
+#top #top_left #leaf{
+    cursor: pointer;
+}
+.top_left img{
+    cursor: pointer;
+    transition: transform 2s ease-in-out;
+}
+.top_left img:hover{
+    transform: rotate(360deg);
+    padding-left: 85px;
+}
